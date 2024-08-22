@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001c30;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #176b87;
+  width: 1000px;
+  height: 400px;
+  margin-top: 6rem;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.amount {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.btn {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.display {
+  color: #dafffb;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.aot {
+  color: #dafffb;
+  font-size: 2rem;
+}
+
+.tip {
+  display: flex;
+  justify-content: center;
+}
+
+.t {
+  background-color: #001c30;
+  width: 18em;
+  height: 3rem;
+  text-align: center;
+  color: #dafffb;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  transition: all 100ms;
+}
+
+.t:hover {
+  background-color: #176b87;
+  color: #dafffb;
+  border: solid #dafffb;
+  cursor: pointer;
+}
+
+.t:active {
+  background-color: #033c64;
+}
+
+.cta {
+  background-color: #dafffb;
+  width: 30em;
+  height: 3rem;
+  text-align: center;
+  color: #033c64;
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  transition: all 100ms;
+  border: solid #001c30;
+}
+
+.nt {
+  background-color: #dafffb;
+  width: 30em;
+  height: 3rem;
+  text-align: center;
+  color: #033c64;
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  transition: all 100ms;
+  border: solid #001c30;
+}
+
+.cta:hover {
+  background-color: #033c64;
+  color: #dafffb;
+  border: solid #dafffb;
+  cursor: pointer;
+}
+
+.nt:hover {
+  background-color: #033c64;
+  color: #dafffb;
+  border: solid #dafffb;
+  cursor: pointer;
+}
+
+.cta:active {
+  background-color: #022035;
+}
+
+.nt:active {
+  background-color: #022035;
+}
